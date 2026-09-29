@@ -56,6 +56,8 @@ I have used the Python concepts that we have learned in the course, mainly:
 4. Run: `python main.py`
 5. Select Student or Mess Incharge.
 6. Follow the options shown on the screen.
+7. if error occurs then typecd "MESSmnger-mess-menu-manager-main" in terminal.
+8. then type python main.py
 
 ## Author
 
