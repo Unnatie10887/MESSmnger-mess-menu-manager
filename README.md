@@ -1,4 +1,3 @@
-# MESSmnger-mess-menu-manager
 # Mess Menu Manager
 
 This is a simple Python project for managing the college mess menu.
