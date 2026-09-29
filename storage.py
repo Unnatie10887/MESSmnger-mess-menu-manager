@@ -1,9 +1,6 @@
 from menu import menus
-
-
 def save_menus():
     file = open("menu.txt", "w")
-
     for day in menus:
         menu = menus[day]
 
@@ -12,13 +9,10 @@ def save_menus():
         file.write(menu["Lunch"] + "~")
         file.write(menu["Snacks"] + "~")
         file.write(menu["Dinner"] + "\n")
-
     file.close()
-
 
 def load_menus():
     file = open("menu.txt", "r")
-
     for line in file:
         data = line.strip().split("~")
 
@@ -31,5 +25,4 @@ def load_menus():
                 "Snacks": data[3],
                 "Dinner": data[4]
             }
-
     file.close()
